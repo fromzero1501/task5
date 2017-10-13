@@ -22,7 +22,8 @@ html {font-size: 62.5%;
 .header {
     background-color: rgb(95,192,205);
     height: 5rem;
-    position: relative;
+    position: fixed;
+    z-index: 99;
 }
 .h1 {
     position: absolute;
