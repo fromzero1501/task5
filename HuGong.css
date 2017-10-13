@@ -1,0 +1,155 @@
+* {
+    margin: 0;padding: 0;
+}
+html,body {
+    height: 100%;
+}
+html {font-size: 62.5%;
+    font-family:微软雅黑;
+}
+.w100{
+    width: 100%;
+}
+.cw{
+    color: white;
+}
+.cr {
+    color: rgb(226,97,99);
+}
+.fl {
+    float: left;
+}
+.header {
+    background-color: rgb(95,192,205);
+    height: 5rem;
+    position: relative;
+}
+.h1 {
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    margin-top: -1.5em;
+    height: 3em;
+    width: 1.7em
+
+}
+.h2 {
+
+    font-size:3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.67em;
+    margin-left: -2em;
+}
+
+.name {
+    background-image: url(beijing.png);
+
+    background-size: cover;
+    height: 16em;
+    position: relative;
+}
+.n1 {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    margin-top: -4rem;
+}
+.n11 {
+    height: 8em;
+}
+.n2 {
+    position: absolute;
+    top: 50%;
+    left: 12em;
+    margin-top: -2em;
+}
+.n21 {
+    font-size:2em;
+}
+.n22 {
+    height: 1.5em;
+    float: left;
+    margin: 0.4em 1em 0 0;
+}
+.n23 {
+    font-size: 1.5em;
+    float: left;
+    margin-top: 0.2em;
+}
+
+table{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    line-height: 3em;
+}
+td {
+    padding: 0.5em;
+}
+.t1 {
+    margin-left: 0.8em;
+    border-left: 0.4em solid rgb(95,192,205);
+    padding-left: 0.8em;
+}
+.t21 {
+    margin: 1em 0.2em 1em 1em;
+    height: 1em;
+}
+.tl{
+    border-right: 1px solid gray;
+    color: gray;
+    text-align: center;
+    width: 6em;
+    line-height: 1.6em;
+
+}
+.tr {
+    padding-left: 0.5em;
+}
+.lh {
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+}
+.C {
+    position: fixed;
+    bottom: 0;
+    height: 5em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.C1 {
+
+    width: calc(50% - 1em);
+    height: 2em;
+    font-size:2em;
+    margin-left: 0.5em;
+    border: 2px solid rgb(95,192,205);
+    color: rgb(95,192,205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C2 {
+    width: calc(50% - 1em);
+    height: 2em;
+    font-size:2em;
+    margin-right: 0.5em;
+    border: 2px solid rgb(95,192,205);
+    background-color: rgb(95,192,205);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.D {
+    position: relative;
+    height: 6em;
+}
